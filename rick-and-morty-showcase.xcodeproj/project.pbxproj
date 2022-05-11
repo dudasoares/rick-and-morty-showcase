@@ -99,6 +99,9 @@
 		B17BCED1282C2AA100358305 /* rick-and-morty-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				B17BCF02282C2C8200358305 /* Model */,
+				B17BCF03282C2C9100358305 /* ViewModel */,
+				B17BCF04282C2C9900358305 /* View */,
 				B17BCED2282C2AA100358305 /* AppDelegate.swift */,
 				B17BCED4282C2AA100358305 /* SceneDelegate.swift */,
 				B17BCED6282C2AA100358305 /* ViewController.swift */,
@@ -125,6 +128,43 @@
 				B17BCEF5282C2AA200358305 /* rick_and_morty_showcaseUITestsLaunchTests.swift */,
 			);
 			path = "rick-and-morty-showcaseUITests";
+			sourceTree = "<group>";
+		};
+		B17BCF02282C2C8200358305 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B17BCF03282C2C9100358305 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B17BCF04282C2C9900358305 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B17BCF05282C2CB900358305 /* ViewCell */,
+				B17BCF07282C2CD600358305 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B17BCF05282C2CB900358305 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		B17BCF07282C2CD600358305 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
