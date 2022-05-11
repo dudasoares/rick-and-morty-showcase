@@ -16,6 +16,7 @@
 		B17BCEF4282C2AA200358305 /* rick_and_morty_showcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCEF3282C2AA200358305 /* rick_and_morty_showcaseUITests.swift */; };
 		B17BCEF6282C2AA200358305 /* rick_and_morty_showcaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCEF5282C2AA200358305 /* rick_and_morty_showcaseUITestsLaunchTests.swift */; };
 		B17BCF0F282C359D00358305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17BCF0E282C359D00358305 /* Main.storyboard */; };
+		B17BCF17282C3AF900358305 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCF16282C3AF900358305 /* Characters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B17BCEF3282C2AA200358305 /* rick_and_morty_showcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rick_and_morty_showcaseUITests.swift; sourceTree = "<group>"; };
 		B17BCEF5282C2AA200358305 /* rick_and_morty_showcaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rick_and_morty_showcaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B17BCF0E282C359D00358305 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B17BCF16282C3AF900358305 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		B17BCF02282C2C8200358305 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B17BCF16282C3AF900358305 /* Characters.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				B17BCED7282C2AA100358305 /* ViewController.swift in Sources */,
 				B17BCED3282C2AA100358305 /* AppDelegate.swift in Sources */,
 				B17BCED5282C2AA100358305 /* SceneDelegate.swift in Sources */,
+				B17BCF17282C3AF900358305 /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
