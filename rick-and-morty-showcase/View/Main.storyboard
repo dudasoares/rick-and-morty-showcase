@@ -60,6 +60,11 @@
                                                 <constraint firstItem="oz1-eB-wC4" firstAttribute="top" secondItem="Ehl-qo-XPT" secondAttribute="bottom" constant="5" id="vEw-nA-0az"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="characterImage" destination="ce8-Hw-F7f" id="Tlz-qb-k8Y"/>
+                                            <outlet property="characterName" destination="Ehl-qo-XPT" id="bze-LJ-DaC"/>
+                                            <outlet property="characterSpecie" destination="oz1-eB-wC4" id="wUw-lg-bKu"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -75,6 +80,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Characters" largeTitleDisplayMode="always" id="qYX-nL-YxV"/>
                     <connections>
+                        <outlet property="tableView" destination="aUy-Hn-HnL" id="y8N-iN-P0R"/>
                         <segue destination="Hhg-5d-D8g" kind="show" identifier="toDetail" id="IHx-ET-hVC"/>
                     </connections>
                 </viewController>
@@ -171,6 +177,15 @@
                                                 <constraint firstItem="M4Y-94-QPu" firstAttribute="top" secondItem="8Rb-Vk-Bqj" secondAttribute="bottom" constant="10" id="zaf-3C-gYR"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="characterGender" destination="8Rb-Vk-Bqj" id="rDd-Xf-t0P"/>
+                                            <outlet property="characterImage" destination="LE2-TU-sTJ" id="hp3-r8-DWr"/>
+                                            <outlet property="characterLocation" destination="MOl-nq-ySy" id="AR4-kv-9ix"/>
+                                            <outlet property="characterName" destination="c1q-gY-Ins" id="aXi-Po-vhM"/>
+                                            <outlet property="characterOrigin" destination="M4Y-94-QPu" id="LAR-fW-SLG"/>
+                                            <outlet property="characterSpecie" destination="NY6-ic-eXH" id="FXQ-xP-uUG"/>
+                                            <outlet property="characterStatus" destination="qaD-g0-Clq" id="yXz-hd-qU6"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -185,6 +200,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Details" largeTitleDisplayMode="never" id="mlA-KX-nqM"/>
+                    <connections>
+                        <outlet property="tableView" destination="ijk-Lc-VmB" id="dEN-JD-IFW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hzp-K0-HXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

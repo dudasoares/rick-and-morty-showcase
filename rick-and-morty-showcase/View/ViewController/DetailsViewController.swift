@@ -1,21 +1,19 @@
 //
-//  ViewController.swift
-//  rick-and-morty-showcase
+//  DetailsViewController.swift
+//  RickAndMortyChallenge
 //
-//  Created by Eduarda Soares Serpa Camboim on 11/05/22.
+//  Created by Eduarda Soares Serpa Camboim on 13/09/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
 }
-
