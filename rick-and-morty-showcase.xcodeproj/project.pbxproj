@@ -20,6 +20,7 @@
 		B17BCF1A282C3CC300358305 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCF18282C3CC300358305 /* CharactersTableViewCell.swift */; };
 		B17BCF1B282C3CC300358305 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCF19282C3CC300358305 /* DetailsTableViewCell.swift */; };
 		B17BCF1D282C3EEC00358305 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCF1C282C3EEC00358305 /* DetailsViewController.swift */; };
+		B17BCF1F282C44DA00358305 /* CharactersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BCF1E282C44DA00358305 /* CharactersAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B17BCF18282C3CC300358305 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
 		B17BCF19282C3CC300358305 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		B17BCF1C282C3EEC00358305 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B17BCF1E282C44DA00358305 /* CharactersAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		B17BCF03282C2C9100358305 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B17BCF1E282C44DA00358305 /* CharactersAPI.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17BCF1F282C44DA00358305 /* CharactersAPI.swift in Sources */,
 				B17BCF1B282C3CC300358305 /* DetailsTableViewCell.swift in Sources */,
 				B17BCED7282C2AA100358305 /* ViewController.swift in Sources */,
 				B17BCED3282C2AA100358305 /* AppDelegate.swift in Sources */,
