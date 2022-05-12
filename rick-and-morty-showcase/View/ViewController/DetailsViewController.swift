@@ -51,8 +51,6 @@ class DetailsViewController: UIViewController, UITableViewDataSource, UITableVie
     
         }
         
-        
-        
         return cell
     }
     

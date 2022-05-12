@@ -14,8 +14,6 @@ class DetailsTableViewCell: UITableViewCell {
     @IBOutlet weak var characterSpecie: UILabel!
     @IBOutlet weak var characterStatus: UILabel!
     @IBOutlet weak var characterGender: UILabel!
-    @IBOutlet weak var characterOrigin: UILabel!
-    @IBOutlet weak var characterLocation: UILabel!
     
     
     override func awakeFromNib() {
